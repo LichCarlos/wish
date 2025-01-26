@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{result}}</title>
+</head>
+
+<body>
+  <h2>{{msg}}</h2>
+
+  <h2><a href="/">返回</a></h2>
+  <! -- 添加许愿表单 -->
+    <form action="add" method="post" id="form" style="height: 136px; ">
+      <! -- 许愿者姓名 -->
+        <input type="text" class="input" id="name" name="name" placeholder="说出你的大名">
+        <! -- 许愿内容 -->
+          <input id="content" class="input" type="text" placeholder="许个愿吧" name="content" />
+          <! -- 提交按钮 -->
+            <button class="submit" type="submit">提交</button>
+    </form>
+
+
+</body>
+
+</html>
